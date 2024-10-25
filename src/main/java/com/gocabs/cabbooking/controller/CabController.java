@@ -12,6 +12,10 @@ import org.springframework.web.bind.annotation.*;
 import com.gocabs.cabbooking.entity.Cab;
 import com.gocabs.cabbooking.service.CabService;
 
+/*
+ * CabController API Endpoints 
+ */
+
 @RestController
 @RequestMapping("/cab")
 @CrossOrigin(origins = "http://localhost:4200/")
